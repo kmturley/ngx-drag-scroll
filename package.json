@@ -26,7 +26,7 @@
     "build-demo:watch": "tsc -p src/demo/ -w",
     "clean": "npm run rimraf -- node_modules",
     "rimraf": "rimraf",
-    "ngc": "ngc -p tsconfig.json",
+    "ngc": "npm run build",
     "tsc": "tsc -p src"
   },
   "repository": {
